@@ -43,13 +43,13 @@ function Sidebar() {
                 />
 
                 {/* Button to change state coding | drawing */}
-                <button className="self-end" onClick={changeState}>
+                {/* <button className="self-end" onClick={changeState}>
                     {state === STATES.CODING ? (
                         <MdOutlineDraw size={30} />
                     ) : (
                         <IoCodeSlash size={30} />
                     )}
-                </button>
+                </button> */}
             </div>
             <div
                 className="absolute left-0 top-0 z-20 w-full flex-grow flex-col bg-dark md:static md:w-[300px]"
